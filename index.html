@@ -42,25 +42,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Sarthak Veggalam</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav pull-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">My Projects</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -75,11 +71,12 @@
 
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 ">
-                    <h1 id="home-head">You've reached Sarthak Veggalam!</h1>
-                    <h4 id = "home-subhead">Experience Designer.Product Enthusiast.Climate Change Advocate.</h4>
+                  <h3 id ="home-tophead">Hi,</h3>
+                    <h1 id="home-head">I'm Sarthak Veggalam.</h1>
+                    <h4 id = "home-subhead"><span  id = "home-experience">Experience Designer. </span><span id = "home-product">Product Enthusiast. </span><span id = "home-climate">Climate Change Advocate.</span></h4>
                 </div>
 
-                <div class="col-xs-12 col-lg-12">
+                <div class="col-xs-12 col-lg-12 button-box">
                   <a class="btn btn-default about-button page-scroll" href="#about">Know Me</a>
                   <a class="btn btn-default work-button page-scroll" href = "" onclick="OpenInNewTabWinBrowser('postica.html');">My Work</a>
                 </div>
@@ -93,17 +90,44 @@
 
     <!-- About Section -->
     <section id="about" class="about-section">
-        <div class="container">
+        <div class="">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
+                <div class="col-lg-6">
+                    <h1 id ="about-tophead">My Projects</h1>
                 </div>
+                <div class="col-lg-6 pull-left">
+                  <div class="row">
+                    <div class="col-lg-3 project-postica">
+                        <h4  class = "about-head">Postica</h4>
+            <a href="./postica.html"><img src="./img/blue-ball.svg"  class="project-button" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 project-postica">
+                          <h4  class = "about-head">MaidAid</h4>
+                            <a href="./maidaid.html"><img src="./img/blue-ball.svg" class="project-button" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 project-postica">
+                        <h4  class = "about-head">Dailyatfive- Website Design</h4>
+                          <a href="./postica.html"><img src="./img/blue-ball.svg"  class="project-button" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 project-postica">
+                        <h4  class = "about-head">Dailyatfive- App Design</h4>
+                          <a href="./postica.html"><img src="./img/blue-ball.svg"  class="project-button" alt=""></a>
+                    </div>
+                  </div>
+                  </div>
+
+
+
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services-section">
+    <!-- <section id="services" class="services-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -111,19 +135,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script>
+    <!-- <script>
     var blocks = Snap("#block");
     Snap.load("home-bg.svg", function(data){
             blocks.append(data);
@@ -135,7 +149,7 @@
               tile1.animate({transform:'s1.5,50,50'},500);
             });
     });
-    </script>
+    </script> -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
