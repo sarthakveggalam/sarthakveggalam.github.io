@@ -131,7 +131,7 @@ of those sections to manage the look and feel of the site. */
   margin-top: 50px;
 }
 
-.project-postica{
+.project-box{
   height:200px;
   width:200px;
   background-color: #fff;
@@ -140,9 +140,17 @@ of those sections to manage the look and feel of the site. */
   border-radius: 3px;
 }
 
-.about-head{
+.project-head{
   font-family:'Roboto',sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+  color:#009587;
+  font-weight: 300;
+  text-align: center;
+}
+
+.project-head{
+  font-family:'Roboto',sans-serif;
+  font-size: 16px;
   color:#009587;
   font-weight: 300;
   text-align: center;
