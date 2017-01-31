@@ -150,6 +150,15 @@
     /*background: #fff;*/
     /*z-index: 100;*/
 }
+.task-section {
+    height: 800px;
+    background-image: url('../img/green-bg.svg');
+    background-position: center;
+    padding-top: 50px;
+    /*text-align: center;*/
+    /*background: #fff;*/
+    /*z-index: 100;*/
+}
 .wireframe-section {
     height: 1100px;
     /*background-image: url('../img/home-bg.svg');*/
@@ -169,6 +178,14 @@
 
 .wireframe-section-maidaid{
   height: 1450px;
+  /*background-image: url('../img/home-bg.svg');*/
+  padding-top: 10px;
+  /*text-align: center;*/
+  background: #fff;
+  /*z-index: 100;*/
+}
+.wireframe-section-dailyatfive{
+  height: 1500px;
   /*background-image: url('../img/home-bg.svg');*/
   padding-top: 10px;
   /*text-align: center;*/
@@ -256,7 +273,7 @@
 .big-head{
   font-family: 'Roboto', sans-serif;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 100;
   color:#ff6f42;
   text-align: left;
   top:20px;
